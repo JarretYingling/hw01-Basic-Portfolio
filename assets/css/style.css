@@ -8,13 +8,152 @@ html {
     box-sizing: inherit;
 }
 
-/* temp wireframe content borders */
+/* temp wireframe content borders
 
 html, body,
 header, nav, main, aside, section, article, footer, div,
 h1, h2, h3, h4, h5, h6, p {
-    padding: 1px;
-    border-width: 1px;
-    border-color: #000000;
+    padding: 0px;
+    border-width: 0px;
+    border-color: #777777;
     border-style: solid;
+}
+
+/* hw01-Basic-Portfolio */
+
+html, body {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-seriff;
+    font-size: 16px;
+    text-align: left;
+    height: 100%;
+    margin: 0px;
+}
+
+.background {
+    background-color: #ffffff;
+    background-image: url(../images/textured_paper.png);
+    height: 100px;
+}
+
+header {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    border-bottom-width: 3px;
+    border-color: #cccccc;
+    border-style: solid;
+    margin: 0px 0px 25px 0px;
+}
+
+.w-960 {
+    width: 960px;
+    margin: 0px auto;
+    overflow: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Georgia", "Times", "Times New Roman", serif;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 2rem;
+    padding: 20px;
+    float: left;
+}
+
+nav {
+    padding: 25px 0px;
+    float: right;
+}
+
+nav p {
+    padding: 0px 5px;
+    display: inline-block;
+}
+
+nav p a {
+    color: #777777;
+    text-decoration: none;
+    padding: 5px;
+    border-width: 5px;
+    border-color: #ffffff;
+    border-style: solid;
+}
+
+a:hover {
+    text-decoration: underline;
+    border-color: #777777
+}
+
+main {
+    clear: both;
+    background-color: #ffffff;
+    width: 960px;
+    min-height: 100%;
+    padding: 20px;
+    border-width: 1px;
+    border-color: #dddddd;
+    border-style: solid;
+    margin: 0px auto 75px;
+    overflow: auto;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #4aaaa5;
+    padding: 0px 0px 20px 0px;
+}
+
+main div {
+    overflow: auto;
+}
+
+main div p {
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+p.headshot {
+    width: 20%;
+    float: left;
+}
+
+p.portfolio {
+    width: 34%;
+    margin: 10px;
+    float: left;
+}
+
+main div p img {
+    clear: both;
+    width: 100%;
+    padding: 0px 20px 0px 0px;
+}
+
+.btn {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 1.5rem;
+    width: 100px;
+}
+
+.push-footer {
+    height: 100px;
+}
+
+footer {
+    clear: both;
+    color: #dddddd;
+    background-color: #666666;
+    text-align: center;
+    width: 100%;
+    height: 75px;
+    padding: 50px 0px 0px 0px;
+    border-width: 8px 0px 0px 0px;
+    border-color: #4aaaa5;
+    border-style: solid;
+    position: sticky;
 }
